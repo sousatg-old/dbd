@@ -1,4 +1,4 @@
-# Auto DNS Config
+# DBD - DNS Block Dodge
 
 ## Windows Instructions
 - Download ZIP
