@@ -19,5 +19,7 @@ For Each objItem in colItems
     Wscript.Echo objItem.NetConnectionID
     cmdString = "netsh interface ip set dns name=""" & objItem.NetConnectionID & """ static 8.8.8.8 primary"
     WshShell.Run cmdString
+    cmdString = "netsh interface ip add dns name=""" & objItem.NetConnectionID & """ 8.8.4.4 index=2"
+    WshShell.Run cmdString
 Next
 set WshShell = nothing
