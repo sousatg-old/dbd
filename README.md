@@ -9,10 +9,8 @@
 ## Mac Instructions
 - Download ZIP
 - Extact it
-- Open Terminal
-- Change into extracted directory
-- Write "chmod u+x macconfig.sh", without quotes
-- Write "./macconfig.sh"
-- Choose 1 for Wi-Fi or 2 for Ethernet
+- Right mouse button on macconfig.app
+- Press Open
+- Select Wi-Fi or Ethernet, press Ok
 - Write your password
 - Enjoy
