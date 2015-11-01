@@ -19,4 +19,5 @@ For Each objItem in colItems
     cmdString = "netsh interface ip set dns name=""" & objItem.NetConnectionID & """ static 8.8.8.8 primary"
     WshShell.Run cmdString
 Next
+WshShell.Run "ipconfig /flushdns"
 set WshShell = nothing
